@@ -12,4 +12,4 @@ equation' a b c =
         x1 = (-b+sqrt delta)/(2*a)
         x2 = (-b-sqrt delta)/(2*a)
 
-    in if a == 0 || delta < 0 then error "A equação não é de 2° grau ou não há raízes reais" else (x1, x2)
+    in if a == 0 || delta < 0 then error "A equação não é de 2° grau ou não há raízes" else (x1, x2)
